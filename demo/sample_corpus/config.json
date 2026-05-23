@@ -1,0 +1,14 @@
+{
+  "llm_provider": "claude",
+  "model": "claude-sonnet-4-20250514",
+  "domain": "ai_tech",
+  "entity_types": ["PERSON", "ORG", "TECH", "CONCEPT", "PRODUCT", "LOCATION"],
+  "relation_types": [
+    "WORKS_FOR", "USES", "CREATED_BY", "DEPENDS_ON",
+    "PART_OF", "RELATED_TO", "LOCATED_IN", "DEVELOPED_BY"
+  ],
+  "min_confidence": 0.6,
+  "enable_disambiguation": true,
+  "corpus_format": "txt",
+  "max_tokens_per_doc": 4096
+}
