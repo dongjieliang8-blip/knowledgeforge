@@ -1,6 +1,7 @@
 {
-  "api_provider": "claude",
-  "model": "mimo-7b",
+  "api_provider": "mimo",
+  "api_base": "https://token-plan-cn.xiaomimimo.com/anthropic",
+  "model": "mimo-v2.5",
   "domain": "ai_tech",
   "entity_types": ["PERSON", "ORG", "TECH", "CONCEPT", "PRODUCT", "LOCATION"],
   "relation_types": [

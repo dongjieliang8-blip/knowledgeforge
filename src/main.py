@@ -103,8 +103,9 @@ class KnowledgeForgePipeline:
             with open(config_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         return {
-            "api_provider": "claude",
-            "model": "mimo-7b",
+            "api_provider": "mimo",
+            "api_base": "https://token-plan-cn.xiaomimimo.com/anthropic",
+            "model": "mimo-v2.5",
             "entity_types": ["PERSON", "ORG", "TECH", "CONCEPT", "PRODUCT"],
             "relation_types": ["WORKS_FOR", "USES", "CREATED_BY", "DEPENDS_ON", "PART_OF"],
             "min_confidence": 0.6,

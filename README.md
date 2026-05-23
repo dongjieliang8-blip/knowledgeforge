@@ -1,6 +1,6 @@
 # KnowledgeForge — 多Agent协作知识图谱构建流水线
 
-基于 Claude Code / DeepSeek API / MiMo 模型的多智能体知识图谱构建流水线，实现文档实体抽取→实体消歧→图谱构建→质量验证的全自动化闭环。
+基于 Claude Code / DeepSeek API / MiMo-v2.5的多智能体知识图谱构建流水线，实现文档实体抽取→实体消歧→图谱构建→质量验证的全自动化闭环。
 
 ## 架构
 
@@ -30,7 +30,7 @@ python -m src.main run ./demo/sample_corpus
 ## 技术栈
 
 - Python
-- Claude Code / DeepSeek API / MiMo 模型
+- Claude Code / DeepSeek API / MiMo-v2.5
 - NetworkX（图存储与查询）
 - spaCy（文本处理）
 
