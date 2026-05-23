@@ -103,8 +103,8 @@ class KnowledgeForgePipeline:
             with open(config_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         return {
-            "llm_provider": "claude",
-            "model": "claude-sonnet-4-20250514",
+            "api_provider": "claude",
+            "model": "mimo-7b",
             "entity_types": ["PERSON", "ORG", "TECH", "CONCEPT", "PRODUCT"],
             "relation_types": ["WORKS_FOR", "USES", "CREATED_BY", "DEPENDS_ON", "PART_OF"],
             "min_confidence": 0.6,
